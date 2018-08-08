@@ -7,3 +7,17 @@ from .models import Contact
 
 # Create your views here.
 #your code is here 
+class contacts(self):
+    def do_GET(self):
+
+
+
+
+
+
+
+
+    
+    created_at = models.DateTimeField(default=datetime.now, blank=True)
+    def __str__(self):
+        return self.name
